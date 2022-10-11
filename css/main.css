@@ -2,4 +2,33 @@
 
 body{
     background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: darkorchid;
+}
+
+ul.site-title li:nth-of-type(odd){
+    background-color: aqua;
+} 
+#my_simage{
+    box-shadow: 0 0 2px 1px black;
+}
+#ji_li{
+    list-style-type: square;
+}
+#ji_li li:nth-child(odd){
+    background-color: green;
+}
+ul{
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: deepskyblue;
+    text-decoration: none;
 }
