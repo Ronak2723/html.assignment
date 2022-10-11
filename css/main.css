@@ -10,8 +10,8 @@ header, footer {
     background-color: darkorchid;
 }
 
-ul.site-title li:nth-of-type(odd){
-    background-color: aqua;
+.site-title{
+    color: aqua;
 } 
 #my_simage{
     box-shadow: 0 0 2px 1px black;
